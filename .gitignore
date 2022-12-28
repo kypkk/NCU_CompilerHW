@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# The questions pdf and txt
+*.txt
+*.pdf
+
+# lex yacc files
+*.tab.c
+*.tab.h
+*.yy.c
