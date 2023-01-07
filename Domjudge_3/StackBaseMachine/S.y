@@ -102,7 +102,8 @@ expr    : LOAD NUM  {s.push($2);}
                             else {
                                 int a = s.top();
                                 s.pop();
-                                s.push(++a);
+                                a += 1;
+                                s.push(a);
                             }
                         }
         | DEC           {
@@ -113,7 +114,8 @@ expr    : LOAD NUM  {s.push($2);}
                             else {
                                 int a = s.top();
                                 s.pop();
-                                s.push(--a);
+                                a -= 1;
+                                s.push(a);
                             }
                         }
         ;

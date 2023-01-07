@@ -5,7 +5,7 @@
 
 %%
 [0-9]+ {
-    yylval.ival = atoi(yytext);
+    yylval.ival = atoi(yytext); // atoi make the string number into integer number 
     return NUM;
 }
 

@@ -7,7 +7,7 @@
 %}
 
 %union {
-int 	ival;
+int ival;
 int loc;
 struct def{
 	int row;
