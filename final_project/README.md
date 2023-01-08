@@ -2,7 +2,7 @@
 My MiniLisp interpreter for compiler final project at NCU
 
 ### Compilation
-Enter ```sh script.sh``` in the shell to compile the source code and link the object files; it will generate the binary interpreter into **bin** directory.
+Enter ```sh script.sh``` in the shell to compile the source code and link the object files.
 
 ### Execution
 Enter ```sh test.sh``` to execute the MiniLisp interpreter and test the public data.
